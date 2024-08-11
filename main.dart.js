@@ -89865,7 +89865,7 @@ return A.Jg(new A.a8e(this),s,a,!1,t.z)},
 K(a){var s,r,q=null,p=A.dH(15),o=A.kn(A.z(a).ax,1),n=this.c,m=n.e
 m.toString
 m=A.ay(m,q,q,q,A.z(a).p3.r,q,q)
-s=A.a([A.ay(n.as,q,q,q,A.z(a).p3.w,q,q)],t.p)
+s=A.a([A.ay("Class: "+n.as,q,q,q,A.z(a).p3.w,q,q)],t.p)
 r=n.w
 if(r!=null)s.push(A.ay("Subclass: "+r,q,q,q,A.z(a).p3.Q,q,q))
 r=n.x
