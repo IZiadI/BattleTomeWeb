@@ -1641,6 +1641,52 @@
         ]
       },
       {
+        "name": "Chase Rules",
+        "source": "DMG",
+        "page": 252,
+        "ruleType": "V",
+        "entries": [
+          "Chases typically occur when a fleeing creature is trying to escape pursuit. The rules below supplement the usual movement rules and assume that the participants are actively avoiding obstacles while either trying to catch up or escape.",
+          "A chase can involve one or more pursuers and one or more quarry. Participants in a chase are strongly encouraged to track both movement and time since the longer a chase continues, the more challenging it becomes.",
+          "While a chase is happening, participants can take the Dash action a number of times equal to 3 + their Constitution modifier. Each additional Dash beyond this limit requires a DC 10 Constitution check. On a failed check, they gain one level of exhaustion.",
+          {
+            "type": "table",
+            "caption": "Chase Complications",
+            "colLabels": [
+              "d20",
+              "Complication"
+            ],
+            "colStyles": [
+              "col-2 text-center",
+              "col-10 text-left"
+            ],
+            "rows": [
+              [1, "Your path takes you through a rough terrain. Make a DC 10 Dexterity saving throw to avoid falling prone."],
+              [2, "You run into a hostile bystander. Make a DC 15 Charisma (Intimidation) check or be slowed."],
+              [3, "A barrel rolls in your way. Make a DC 10 Dexterity check to jump over it."],
+              [4, "You stumble over some debris. Make a DC 10 Dexterity saving throw or fall prone."],
+              [5, "A sharp turn forces you to slow down. Make a DC 10 Dexterity check or lose 10 feet of movement."],
+              [6, "You pass through a crowded area. Make a DC 15 Dexterity (Acrobatics) check to weave through the crowd."],
+              [7, "You are forced to push through a narrow gap. Make a DC 10 Strength (Athletics) check to squeeze through."],
+              [8, "A cart blocks your path. Make a DC 10 Strength check to shove it aside."],
+              [9, "You slip on a slick surface. Make a DC 10 Dexterity saving throw or fall prone."],
+              [10, "A low branch or overhang is in your way. Make a DC 10 Dexterity check to duck under it."],
+              [11, "You pass through a tight alley. Make a DC 10 Dexterity (Acrobatics) check to avoid slowing down."],
+              [12, "An animal startles and blocks your way. Make a DC 10 Animal Handling check to calm it or avoid it."],
+              [13, "Loose gravel shifts beneath your feet. Make a DC 10 Dexterity saving throw or lose 10 feet of movement."],
+              [14, "An onlooker attempts to trip you. Make a DC 15 Dexterity saving throw to avoid being tripped."],
+              [15, "You get entangled in hanging ropes or wires. Make a DC 10 Dexterity check to get free."],
+              [16, "You run into a dead-end or blocked path. You must backtrack, losing valuable time."],
+              [17, "A sudden drop or ledge is in your path. Make a DC 10 Dexterity saving throw to land safely."],
+              [18, "You become entangled in brush or vines. Make a DC 10 Strength check to break free."],
+              [19, "A sudden distraction causes you to stumble. Make a DC 10 Wisdom saving throw to regain focus."],
+              [20, "No complication occurs."]
+            ]
+          },
+          "The chase ends when all the quarry escape or all pursuers catch up. A quarry that escapes can be considered to have gotten away, while a quarry that is caught is overtaken."
+        ]
+      },      
+      {
         "name": "Downtime Activity: Building a Stronghold",
         "source": "DMG",
         "page": 128,
@@ -12094,6 +12140,19 @@
               }
             ]
           }
+        ]
+      },
+      {
+        "name": "Mounted Combat",
+        "source": "PHB",
+        "page": 198,
+        "ruleType": "V",
+        "entries": [
+          "A willing creature that is at least one size larger than you and that has an appropriate anatomy can serve as a mount, using the following rules.",
+          "While you are mounted, you have two options. You can either control the mount or allow it to act independently.",
+          "Intelligent creatures, such as dragons, act independently. Controlled mounts can be guided using your action, bonus action, or no action at all depending on the situation.",
+          "If the mount provokes an opportunity attack while you're on it, the attacker can target either the mount or you.",
+          "While mounted, you gain advantage on melee attack rolls against any unmounted creature smaller than your mount."
         ]
       },
       {
