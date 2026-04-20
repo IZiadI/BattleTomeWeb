@@ -91062,38 +91062,40 @@ A.aBU.prototype={}
 A.B7.prototype={
 M(a){var s=null,r=this.a6V(a,this.c)
 return new A.Nr(r,B.af,!1,s,s,B.ji,s,!1,s,0,s,s,B.iJ,B.Z,s,s,B.I,B.aA,s)},
-Ee(a,b,c){var s,r,q,p,o=null,n=t.p,m=A.b([],n),l=b.e,k=A.b([],n)
-if(l!=null&&c!==0){l=A.aK(a,B.D,t.w).w
-s=b.e
-s.toString
-k.push(new A.Ti(new A.aBU(new A.ai(new A.aF(14*(c+1),0,0,0),A.cU(A.b([A.am(s,o,o,o,o,A.r(a).ok.x,o,o),B.hl],n),B.a9,B.v,B.w),o),l.a.b*0.046),!0,o))}l=c+1
-n=A.b([],n)
-s=b.w
-if(s!=null)n.push(A.am(s,o,o,o,o,A.r(a).ok.at,o,o))
-s=b.x
-r=s==null
-q=!r
-if(q)n.push(A.am(B.c.cS("Prerequisits:\n"+s),o,o,o,o,A.r(a).ok.ax,o,o))
-if(q&&b.y!=null)n.push(B.aG)
-s=b.y
-q=s!=null
-if(q)n.push(A.am(B.c.cS("Ability score improvements:\n"+s),o,o,o,o,A.r(a).ok.ax,o,o))
-if(!r||q)n.push(B.aG)
-s=b.r
-if(s!=null)n.push(A.am(s,o,o,o,o,A.r(a).ok.Q,o,o))
-s=b.d
-if(s!=null)n.push(A.am("By: "+s,o,o,o,o,o,o,o))
-s=b.as
-if(s!=null)n.push(new A.os(s,o))
-s=b.f
-if(s!=null)n.push(A.bX(A.am(s,o,o,o,o,A.r(a).ok.ax,o,o),o,o))
-k.push(new A.Tj(new A.ai(new A.aF(14*l,0,0,0),A.cU(n,B.a9,B.v,B.w),o),o))
-n=b.a
-if(n!=null)for(s=n.length,p=0;p<n.length;n.length===s||(0,A.A)(n),++p)B.b.G(k,this.Ee(a,n[p],l))
-n=b.b
-if(n!=null)for(s=n.length,p=0;p<n.length;n.length===s||(0,A.A)(n),++p)B.b.G(k,this.Ee(a,n[p],l))
-m.push(new A.Tg(k,o))
-return m},
+Ee(a,b,c){var s,r,q,p,o,n,m=null,l=t.p,k=A.b([],l),j=b.e,i=A.b([],l)
+if(j!=null&&c!==0){j=A.aK(a,B.D,t.w).w
+s=b.as!=null?0:14*(c+1)
+r=b.e
+r.toString
+i.push(new A.Ti(new A.aBU(new A.ai(new A.aF(s,0,0,0),A.cU(A.b([A.am(r,m,m,m,m,A.r(a).ok.x,m,m),B.hl],l),B.a9,B.v,B.w),m),j.a.b*0.046),!0,m))}j=b.as
+s=j!=null
+r=s?0:14*(c+1)
+l=A.b([],l)
+q=b.w
+if(q!=null)l.push(A.am(q,m,m,m,m,A.r(a).ok.at,m,m))
+q=b.x
+p=q==null
+o=!p
+if(o)l.push(A.am(B.c.cS("Prerequisits:\n"+q),m,m,m,m,A.r(a).ok.ax,m,m))
+if(o&&b.y!=null)l.push(B.aG)
+q=b.y
+o=q!=null
+if(o)l.push(A.am(B.c.cS("Ability score improvements:\n"+q),m,m,m,m,A.r(a).ok.ax,m,m))
+if(!p||o)l.push(B.aG)
+q=b.r
+if(q!=null)l.push(A.am(q,m,m,m,m,A.r(a).ok.Q,m,m))
+q=b.d
+if(q!=null)l.push(A.am("By: "+q,m,m,m,m,m,m,m))
+if(s)l.push(new A.os(j,m))
+j=b.f
+if(j!=null)l.push(A.bX(A.am(j,m,m,m,m,A.r(a).ok.ax,m,m),m,m))
+i.push(new A.Tj(new A.ai(new A.aF(r,0,0,0),A.cU(l,B.a9,B.v,B.w),m),m))
+l=b.a
+if(l!=null)for(j=l.length,s=c+1,n=0;n<l.length;l.length===j||(0,A.A)(l),++n)B.b.G(i,this.Ee(a,l[n],s))
+l=b.b
+if(l!=null)for(j=l.length,s=c+1,n=0;n<l.length;l.length===j||(0,A.A)(l),++n)B.b.G(i,this.Ee(a,l[n],s))
+k.push(new A.Tg(i,m))
+return k},
 a6V(a,b){return this.Ee(a,b,0)}}
 A.or.prototype={
 ao6(a){var s=t.w
